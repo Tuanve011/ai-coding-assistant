@@ -1,0 +1,33 @@
+# === File và thư mục Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# === Môi trường ảo ===
+venv/
+env/
+.venv/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Hệ điều hành ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === API Keys & Secrets (QUAN TRỌNG!) ===
+.env
+*.env
+secrets.toml
+.streamlit/secrets.toml
+
+# === Logs ===
+*.log
